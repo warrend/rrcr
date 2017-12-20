@@ -1,0 +1,50 @@
+.post-container {
+  margin-bottom: 10px;
+}
+
+.posts {
+  border: 3px solid #efefef;
+  min-height: 50vh;
+  padding: 25px;
+}
+
+.post {
+  border-bottom: 3px solid #efefef;
+  padding: 10px 16px;
+  margin-bottom: 25px;
+}
+
+.truncate {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.post-header {
+  font-weight: 800;
+}
+
+span {
+  float: right;
+}
+
+.button {
+  background-color: #ff9900;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: right;
+}
+
+.button a {
+  color: #fff;
+}
+
